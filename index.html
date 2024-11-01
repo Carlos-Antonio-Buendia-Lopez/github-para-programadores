@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a, header ul, header li {
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+            float: left;
+            margin: 0;
+        }
+        header a:hover {
+            color: #f4f4f9;
+        }
+        .showcase {
+            background: #e8491d;
+            color: #fff;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .services, .contact {
+            padding: 30px;
+            margin-top: 30px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .services h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact input[type="submit"] {
+            background: #50b3a2;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+        }
+        .contact input[type="submit"]:hover {
+            background: #45a296;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Empresa</h1>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Bienvenido a Mi Empresa</h1>
+            <p>Ofrecemos las mejores soluciones para tu negocio.</p>
+            <p>Esta es una página de prueba para el curso de linkedIn learning.</p>            
+        </div>
+    </section>
+    <section class="services container">
+        <h2>Nuestros Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dapibus ante. Proin bibendum, justo id efficitur facilisis, metus tortor cursus urna, eu gravida nulla nisl ac quam.</p>
+    </section>
+    <section class="contact container">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
